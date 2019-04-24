@@ -1,5 +1,8 @@
 package com.askerlve.datastruct.list;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * @author Askerlve
  * @Description: 单链表常用操作。
@@ -37,12 +40,12 @@ public class LinkedListCommonOperations {
     }
 
     //快慢指针检测环　　　　　　　　　　　　　　　　　　　　　 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　  检测环
-    public static boolean checkCircle(Node list) {
+    public static boolean checkCircle(Node head) {
 
-        if (list == null) return false;
+        if (head == null) return false;
 
-        Node fast = list.next;
-        Node slow = list;
+        Node fast = head.next;
+        Node slow = head;
 
         while (fast != null && fast.next != null) {
             fast = fast.next.next;
@@ -51,6 +54,20 @@ public class LinkedListCommonOperations {
             if (slow == fast) return true;
         }
 
+        return false;
+    }
+
+    //哈希表
+    public static boolean hasCycle(Node head) {
+        Set<Node> nodesSeen = new HashSet<>();
+        while (head != null) {
+            if (nodesSeen.contains(head)) {
+                return true;
+            } else {
+                nodesSeen.add(head);
+            }
+            head = head.next;
+        }
         return false;
     }
 
