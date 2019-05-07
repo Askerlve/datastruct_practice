@@ -28,7 +28,7 @@ public class ReverseWords {
     }
 
     public static void main(String[] args) {
-        System.out.println("a  b     c".split(" ").length);
+        System.out.println(new ReverseWords().reverseWords("   hello  word!!!   "));
     }
 
 }
