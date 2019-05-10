@@ -106,7 +106,7 @@ public class BinarySearchTree {
     /**
      * 计算层级的重点于在写出递推公式
      *
-     * count(level) = max(count(level.left),count(level.right))
+     * count(level) = max(count(level.left),count(level.right)) + 1
      *
      * @param tree
      * @param index
