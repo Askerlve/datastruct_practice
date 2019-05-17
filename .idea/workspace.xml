@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="232b78db-2216-4a38-b2e1-96b43fbf9328" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/graph/IsValidSudoku.java" />
-    </list>
+    <list default="true" id="232b78db-2216-4a38-b2e1-96b43fbf9328" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/datastruct/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,14 +15,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IsValidSudoku.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/graph/IsValidSudoku.java">
+      <file leaf-file-name="MaxCommonSubString.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/dynamic_program/MaxCommonSubString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="78" column="7" lean-forward="false" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="570">
+              <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -56,15 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/datastruct/pom.xml" />
-        <option value="$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/list/SumThreeNum.java" />
-        <option value="$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/list/TwoNumAdd.java" />
-        <option value="$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/list/TwoLinkedNumAdd.java" />
-        <option value="$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/array/FindArrayMissIntNum.java" />
-        <option value="$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/list/LinkedListCommonOperations.java" />
-        <option value="$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/array/ManyNum.java" />
-        <option value="$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/list/MergeKLinkedList.java" />
-        <option value="$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/stack/LinkedListStack.java" />
         <option value="$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/stack/ArrayStack.java" />
         <option value="$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/stack/SampleBrowser.java" />
         <option value="$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/queue/ArrayQueue.java" />
@@ -107,6 +94,15 @@
         <option value="$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/graph/TopSort.java" />
         <option value="$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/graph/NumIslands.java" />
         <option value="$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/graph/IsValidSudoku.java" />
+        <option value="$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/recall/EightQueen.java" />
+        <option value="$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/recall/ZeroOnePackage.java" />
+        <option value="$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/dynamic_program/ZeroOnePackage.java" />
+        <option value="$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/dynamic_program/Double11Advince.java" />
+        <option value="$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/map_reduce/CountSourWord.java" />
+        <option value="$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/dynamic_program/Mindist.java" />
+        <option value="$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/dynamic_program/LevenshtienDis.java" />
+        <option value="$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/dynamic_program/MaxCommonSubString.java" />
+        <option value="$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/str_match/KMP.java" />
       </list>
     </option>
   </component>
@@ -249,8 +245,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -301,13 +295,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="datastruct" type="462c0819:PsiDirectoryNode" />
-              <item name="graph" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamic_program" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -329,13 +325,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.askerlve.datastruct.dynamic_program" />
+      <recent name="com.askerlve.datastruct.map_reduce" />
+      <recent name="com.askerlve.datastruct.recall" />
       <recent name="com.askerlve.datastruct.graph" />
       <recent name="com.askerlve.datastruct.heap" />
-      <recent name="com.askerlve.datastruct.tree" />
-      <recent name="com.askerlve.datastruct.str" />
-      <recent name="com.askerlve.datastruct.hash" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct" />
       <recent name="$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/str" />
       <recent name="$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/sort" />
       <recent name="$PROJECT_DIR$/datastruct" />
@@ -545,16 +542,16 @@
       <workItem from="1557479709310" duration="1541000" />
       <workItem from="1557798367114" duration="1287000" />
       <workItem from="1557883110922" duration="1618000" />
-      <workItem from="1557970756859" duration="2037000" />
+      <workItem from="1557970756859" duration="2705000" />
+      <workItem from="1558054283827" duration="3101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65158000" />
+    <option name="totallyTimeSpent" value="68927000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="23" width="1897" height="970" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -563,12 +560,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17088948" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298122" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298122" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298122" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31320754" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31644204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -577,8 +574,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39906102" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39906102" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -642,104 +639,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="731" column="13" lean-forward="false" selection-start-line="731" selection-start-column="13" selection-end-line="731" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/ArrayDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="422" column="15" lean-forward="false" selection-start-line="422" selection-start-column="8" selection-end-line="422" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Deque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5446">
-          <caret line="192" column="17" lean-forward="false" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/stack/EvalRPN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/queue/MaxSlidingWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1695">
-          <caret line="116" column="46" lean-forward="false" selection-start-line="116" selection-start-column="38" selection-end-line="116" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/queue/CircularDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="127" column="45" lean-forward="false" selection-start-line="127" selection-start-column="45" selection-end-line="127" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/recursion/ClimbStairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="46" column="31" lean-forward="false" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/recursion/CollectionAllPermutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/recursion/FeibonaSoulation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/recursion/NFactorial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/sort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/sort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/StrictMath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="269" column="34" lean-forward="false" selection-start-line="269" selection-start-column="34" selection-end-line="269" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="338" column="26" lean-forward="false" selection-start-line="338" selection-start-column="26" selection-end-line="338" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/sort/CountingSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -915,11 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
           <caret line="63" column="25" lean-forward="false" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2090#2091#0" expanded="false" />
-            <element signature="e#2121#2122#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -927,7 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4170">
           <caret line="310" column="12" lean-forward="false" selection-start-line="310" selection-start-column="12" selection-end-line="310" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -935,12 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="33" column="43" lean-forward="false" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="62" />
-          <folding>
-            <element signature="e#189#190#0" expanded="false" />
-            <element signature="e#235#236#0" expanded="false" />
-            <element signature="e#971#972#0" expanded="false" />
-            <element signature="e#1002#1003#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -956,10 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="48" column="37" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="37" />
-          <folding>
-            <element signature="e#769#770#0" expanded="false" />
-            <element signature="e#800#801#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -967,10 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="55" lean-forward="false" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-          <folding>
-            <element signature="e#626#627#0" expanded="false" />
-            <element signature="e#657#658#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -992,14 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/graph/NumIslands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -1008,13 +879,133 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/graph/NumIslands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/graph/IsValidSudoku.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="78" column="7" lean-forward="false" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
+        <state relative-caret-position="1118">
+          <caret line="78" column="20" lean-forward="false" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/recall/EightQueen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/recall/ZeroOnePackage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="56" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="6" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/map_reduce/CountSourWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/dynamic_program/Double11Advince.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/dynamic_program/ZeroOnePackage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-217">
+          <caret line="4" column="83" lean-forward="false" selection-start-line="4" selection-start-column="83" selection-end-line="4" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/dynamic_program/Mindist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="79" column="15" lean-forward="false" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/dynamic_program/LevenshtienDis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/str_match/RabinKarp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/str_match/BructForce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/str_match/RabinKarp2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/str_match/BoyerMoore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/str_match/KMPplus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/str_match/KMP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datastruct/src/main/java/com/askerlve/datastruct/dynamic_program/MaxCommonSubString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
